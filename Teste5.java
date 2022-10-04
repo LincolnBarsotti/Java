@@ -6,10 +6,6 @@ package com.mycompany.lista;
 
 import java.util.Scanner;
 
-/**
- *
- * @author marco
- */
 public class Teste5 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
