@@ -13,4 +13,4 @@ AQUI APRESENTAREI O QUE VENHO APRENDENDO DA LINGUAGEM DE PROGRAMAÇÃO JAVA
  
  
  
- Imagem retirada do site da orcle para fins estudantis.
+ Imagem retirada do site da orcale para fins estudantis.
