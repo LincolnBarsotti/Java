@@ -7,7 +7,7 @@ package com.mycompany.lista;
 import java.util.Scanner;
 
 
-public class Teste5 {
+public class MediaEscolar {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         double n1, n2, n3, n4, nTotal;
