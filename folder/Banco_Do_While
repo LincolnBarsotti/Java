@@ -1,0 +1,132 @@
+import java.util.Scanner;
+
+/** 
+ *
+ * @author lincoln
+ */
+public class Ac2_2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        String eT = " ",eD = " ",eS = " ",extrato, texto;
+        String cpf = "123.456.789-00", cf,agencia;
+        String senha = null, sen ="01020304", conta,banco;
+        int num, n = 0;
+        double saldo = 1000.00, dp, sq, trans;
+        
+        System.out.println("Boas-vindas");
+        
+        System.out.println("Qual seria o seu cpf? ");
+        cf = sc.next();
+
+        if(!cpf.equals(cf)){
+        do{
+        System.out.println("Poderia repetir o CPF por favor. ");
+        cf = sc.next();
+        }while(!cpf.equals(cf));
+        }
+        
+        if(cpf.equals(cf)){
+            System.out.println("Qual seria a sua senha? ");
+            senha = sc.next();
+            
+            
+        }
+        if(sen.equals(senha)){
+                do{
+                    System.out.println("Digite \n 1 Para saldo");
+                    System.out.println(" 2 Depósito");
+                    System.out.println(" 3 Saque");
+                    System.out.println(" 4 Transferencia");
+                    System.out.println(" 5 Extrato");
+                    System.out.println("0 para sair: ");
+                    num = sc.nextInt();
+
+                    switch (num) {
+                        case 0:
+                            num = 0;
+                            break;
+                        case 1:
+                            System.out.println("Seu saldo é: " + saldo + " reais");
+                            break;
+                        case 2:
+                            System.out.println("Digite a quantia para deposito: ");
+                            dp = sc.nextDouble();
+                            if(dp > 0.0){
+                                System.out.println("Você depositará: " + dp + "\n");
+                                System.out.println("Digite 1 para confirmar e 2 para recusar:");
+                                n = sc.nextInt();
+                                if(n == 1){
+                                saldo += dp;
+                                eD += "Deposito de: " + dp;
+                                n = 0;
+                                }
+                            }else{
+                                System.out.println("Não foi possivel fazer a transferencia");
+                            }   break;
+                        case 3:
+                            System.out.println("Digite a quantia do saque: ");
+                            sq = sc.nextDouble();
+                            
+                            if(sq > 0.0 && saldo > sq){
+                                System.out.println("Você sacará " + sq);
+                                System.out.println("Digite 1 para confirmar e 2 para recusar: ");
+                                n = sc.nextInt();
+                                
+                                if(n == 1){
+                                    saldo -= sq;
+                                    eS += "Saque de: " +sq + "\n";
+                                    n = 0;
+                                }
+                            }else{
+                                System.out.println("Não foi possivel fazer o saque");
+                            }
+                            break;
+                        case 4:
+                            System.out.println("qual valor da transferencia");
+                            trans = sc.nextDouble();
+
+                            if(trans <= saldo && trans > 0){
+                                System.out.println("Você ficará com o saldo de " + (saldo -= trans));
+                                System.out.println("Digite 1 para confirmar a transferencia e 2 para recusar");
+                                n = sc.nextInt();
+                            }
+
+                            if(n == 1){
+                                System.out.println("Digite a conta: ");
+                                conta = sc.next();
+
+                                System.out.println("Digite a agencia: ");
+                                agencia = sc.next();
+
+                                System.out.println("Digite a banco: ");
+                                banco = sc.next();
+
+                                System.out.println("Conta: " + conta + ""
+                                        + ", agencia " + agencia + ", banco " + banco);
+                                
+                                if(n==1){
+                                eT += "Transferencia de " + trans + "\n"; 
+                                n = 0;
+                                }
+                            }else{
+                                saldo += trans;
+                            }
+                        case 5:
+                            texto = " "+" "+" ";
+                            extrato = eT + eD + eS;
+                            if(extrato.equals(texto)){
+                            System.out.println("Não possui movimentação! ");
+                            }else{
+                                System.out.println(extrato);
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                }while(num > 0);
+            }
+        System.out.println("Obrigado pela preferencia!");
+    }
+        
+}
