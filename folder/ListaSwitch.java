@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author marco
+ * @author lincoln
  */
 public class ListaSwitch {
 
