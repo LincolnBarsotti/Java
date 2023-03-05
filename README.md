@@ -1,15 +1,5 @@
 BEM VINDOS AO MEU REPOSITÓRIO JAVA
-<img src= "https://www.oracle.com/oce/press/assets/CONTC9CFBE41FDD2406889093CA156A3294B/native/">
+Aqui apresentarei meus projetos que venho trabalhando, espero que gostem
 
-AQUI APRESENTO O QUE VENHO APRENDENDO DA LINGUAGEM DE PROGRAMAÇÃO JAVA 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- Imagem retirada do site da orcale para fins estudantis.
+Welcome guys, this is my repository
+Here i gonna post my college and personal´s projects, i hope you enjoy
