@@ -1,0 +1,23 @@
+import javax.swing.JOptionPane;
+
+public class OpcoesCalEVoto {
+   public static void main(String[] args) {
+   
+   //inicializo a String que vai receber o input
+        String opcao = "";
+        
+   //Inicializo um array da classe Object com 3 valores - Calculadora, Voto e Sair     
+        Object[] escolha = {"Calculadora","Voto","Sair"};
+        
+   //Enquanto a String "opcao" não receber o valor "2" ela vai reproduzir as 3 opções.   
+       while(!opcao.equalsIgnoreCase("2")){
+            opcao = String.valueOf(JOptionPane.showOptionDialog( null, "Escolha o desejado", "Titulo", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, null, escolha, null));
+            if(opcao.equals("0")){
+                new Calc();
+            }else if(opcao.equals("1")){
+                new voto();
+            }
+       }
+        
+    }
+}
