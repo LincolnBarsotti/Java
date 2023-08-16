@@ -20,7 +20,7 @@ Nesta seção, você encontrará uma coleção de aplicativos desktop desenvolvi
 
 Nesta seção, você encontrará projetos web desenvolvidos em Java, projetados para serem interativos e dinâmicos.
 
-### [gerenciador.zip](WebProjects/gerenciador) :computer:
+### [gerenciador](WebProjects/gerenciador) :computer:
 
 
 
