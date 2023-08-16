@@ -43,3 +43,5 @@ Se você tiver alguma dúvida ou quiser discutir algo relacionado a esses projet
 Agradeço por visitar este repositório e espero que você aproveite explorando esses projetos!
 
 Lincoln Barsotti :bust_in_silhouette:
+Email: lincolnbarsotti.dev@gmail.com
+Instagram: @lincoln_barsotti
