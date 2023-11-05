@@ -8,12 +8,6 @@ Bem-vindo ao repositório que contém meus projetos pessoais desenvolvidos em Ja
 
 Nesta seção, você encontrará uma coleção de aplicativos desktop desenvolvidos em Java. Cada projeto está contido em sua própria pasta com um README detalhado para orientar a execução.
 
-### [Nome do Projeto 1](/AppDesktop/Projeto1) :desktop_computer:
-
-
-
-### [Nome do Projeto 2](/AppDesktop/Projeto2) :desktop_computer:
-
 
 
 ## Projetos Web :globe_with_meridians:
@@ -24,7 +18,7 @@ Nesta seção, você encontrará projetos web desenvolvidos em Java, projetados 
 
 
 
-### [Nome do Projeto Web 2](/WebProjects/ProjetoWeb2) :computer:
+### [API_VOLLMED](/WebProjects/apiRest) :computer:
 
 
 
