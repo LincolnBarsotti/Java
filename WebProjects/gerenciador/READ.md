@@ -29,11 +29,11 @@ Explicação da estrutura de diretórios do projeto:
 
 1. Certifique-se de ter o Java JDK instalado.
 2. Baixe e instale o servidor Apache Tomcat.
-3. Clone este repositório: `git clone https://github.com/seudominio/sua-api-java.git`
-4. Navegue até o diretório do projeto: `cd sua-api-java`
+3. Clone este repositório: `git clone https://github.com/LincolnBarsotti/Java/WebProjects.git`
+4. Navegue até o diretório do projeto: `cd gerenciador`
 5. Copie o arquivo WAR gerado para o diretório `webapps/` do seu servidor Tomcat.
 6. Inicie o servidor Tomcat.
-7. Acesse a API em seu navegador: `http://localhost:8080/sua-api-java/`
+7. Acesse a API em seu navegador: `http://localhost:8080/gerenciador/`
 
 ## Contribuições
 
